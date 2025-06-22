@@ -1,4 +1,4 @@
-# 🇩🇪 German Flashcard App
+# 🇩🇪 Word Easy Flashcard App
 
 <div align="center">
   

@@ -1,0 +1,432 @@
+Category,German,Article,English,Example (DE)
+People & Family,der Mann,der,man,Das ist der Mann.
+People & Family,die Frau,die,woman,Das ist die Frau.
+People & Family,das Kind,das,child,Das ist das Kind.
+People & Family,der Junge,der,boy,Das ist der Junge.
+People & Family,das Mädchen,das,girl,Das ist das Mädchen.
+People & Family,die Familie,die,family,Das ist die Familie.
+People & Family,der Vater,der,father,Das ist der Vater.
+People & Family,die Mutter,die,mother,Das ist die Mutter.
+People & Family,der Bruder,der,brother,Das ist der Bruder.
+People & Family,die Schwester,die,sister,Das ist die Schwester.
+People & Family,der Sohn,der,son,Das ist der Sohn.
+People & Family,die Tochter,die,daughter,Das ist die Tochter.
+People & Family,die Eltern,die,parents,Das ist die Eltern.
+People & Family,der Großvater,der,grandfather,Das ist der Großvater.
+People & Family,die Großmutter,die,grandmother,Das ist die Großmutter.
+People & Family,der Freund,der,friend (male),Das ist der Freund.
+People & Family,die Freundin,die,friend (female),Das ist die Freundin.
+People & Family,der Ehemann,der,husband,Das ist der Ehemann.
+People & Family,die Ehefrau,die,wife,Das ist die Ehefrau.
+People & Family,das Baby,das,baby,Das ist das Baby.
+People & Family,der Onkel,der,uncle,Das ist der Onkel.
+People & Family,die Tante,die,aunt,Das ist die Tante.
+People & Family,der Cousin,der,cousin (male),Das ist der Cousin.
+People & Family,die Cousine,die,cousin (female),Das ist die Cousine.
+People & Family,der Name,der,name,Das ist der Name.
+People & Family,der Nachname,der,surname,Das ist der Nachname.
+People & Family,der Vorname,der,first name,Das ist der Vorname.
+People & Family,das Alter,das,age,Das ist das Alter.
+People & Family,ledig,,single,Ich mag ledig.
+People & Family,verheiratet,,married,Ich mag verheiratet.
+People & Family,geschieden,,divorced,Ich mag geschieden.
+People & Family,verwitwet,,widowed,Ich mag verwitwet.
+Food & Drink,das Brot,das,bread,Das ist das Brot.
+Food & Drink,die Milch,die,milk,Das ist die Milch.
+Food & Drink,das Wasser,das,water,Das ist das Wasser.
+Food & Drink,der Kaffee,der,coffee,Das ist der Kaffee.
+Food & Drink,der Tee,der,tea,Das ist der Tee.
+Food & Drink,die Suppe,die,soup,Das ist die Suppe.
+Food & Drink,der Fisch,der,fish,Das ist der Fisch.
+Food & Drink,das Fleisch,das,meat,Das ist das Fleisch.
+Food & Drink,die Kartoffel,die,potato,Das ist die Kartoffel.
+Food & Drink,der Reis,der,rice,Das ist der Reis.
+Food & Drink,das Gemüse,das,vegetables,Das ist das Gemüse.
+Food & Drink,das Obst,das,fruit,Das ist das Obst.
+Food & Drink,der Apfel,der,apple,Das ist der Apfel.
+Food & Drink,die Banane,die,banana,Das ist die Banane.
+Food & Drink,die Orange,die,orange,Das ist die Orange.
+Food & Drink,die Zitrone,die,lemon,Das ist die Zitrone.
+Food & Drink,die Traube,die,grape,Das ist die Traube.
+Food & Drink,die Tomate,die,tomato,Das ist die Tomate.
+Food & Drink,die Gurke,die,cucumber,Das ist die Gurke.
+Food & Drink,der Salat,der,salad,Das ist der Salat.
+Food & Drink,der Käse,der,cheese,Das ist der Käse.
+Food & Drink,die Butter,die,butter,Das ist die Butter.
+Food & Drink,das Ei,das,egg,Das ist das Ei.
+Food & Drink,der Zucker,der,sugar,Das ist der Zucker.
+Food & Drink,das Salz,das,salt,Das ist das Salz.
+Food & Drink,der Pfeffer,der,pepper,Das ist der Pfeffer.
+Food & Drink,das Öl,das,oil,Das ist das Öl.
+Food & Drink,der Honig,der,honey,Das ist der Honig.
+Food & Drink,das Bier,das,beer,Das ist das Bier.
+Food & Drink,der Wein,der,wine,Das ist der Wein.
+Food & Drink,das Frühstück,das,breakfast,Das ist das Frühstück.
+Food & Drink,das Mittagessen,das,lunch,Das ist das Mittagessen.
+Food & Drink,das Abendessen,das,dinner,Das ist das Abendessen.
+Food & Drink,der Nachtisch,der,dessert,Das ist der Nachtisch.
+Food & Drink,die Speisekarte,die,menu,Das ist die Speisekarte.
+Food & Drink,die Rechnung,die,bill,Das ist die Rechnung.
+Food & Drink,vegetarisch,,vegetarian,Ich mag vegetarisch.
+Food & Drink,vegan,,vegan,Ich mag vegan.
+Food & Drink,glutenfrei,,gluten‑free,Ich mag glutenfrei.
+Food & Drink,Prost!,,cheers!,Ich mag Prost!.
+Food & Drink,der Durst,der,thirst,Das ist der Durst.
+Food & Drink,der Hunger,der,hunger,Das ist der Hunger.
+Food & Drink,Guten Appetit!,,enjoy your meal,Ich mag Guten Appetit!.
+Food & Drink,teuer,,expensive,Ich mag teuer.
+Food & Drink,billig,,cheap,Ich mag billig.
+Food & Drink,bezahlen,,to pay,Ich mag bezahlen.
+Food & Drink,bestellen,,to order,Ich mag bestellen.
+Food & Drink,kochen,,to cook,Ich mag kochen.
+Food & Drink,backen,,to bake,Ich mag backen.
+Food & Drink,schmecken,,to taste,Ich mag schmecken.
+Home & Objects,das Haus,das,house,Das ist das Haus.
+Home & Objects,die Wohnung,die,apartment,Das ist die Wohnung.
+Home & Objects,das Zimmer,das,room,Das ist das Zimmer.
+Home & Objects,die Küche,die,kitchen,Das ist die Küche.
+Home & Objects,das Bad,das,bathroom,Das ist das Bad.
+Home & Objects,das Schlafzimmer,das,bedroom,Das ist das Schlafzimmer.
+Home & Objects,das Wohnzimmer,das,living room,Das ist das Wohnzimmer.
+Home & Objects,der Balkon,der,balcony,Das ist der Balkon.
+Home & Objects,die Tür,die,door,Das ist die Tür.
+Home & Objects,das Fenster,das,window,Das ist das Fenster.
+Home & Objects,der Tisch,der,table,Das ist der Tisch.
+Home & Objects,der Stuhl,der,chair,Das ist der Stuhl.
+Home & Objects,das Bett,das,bed,Das ist das Bett.
+Home & Objects,die Lampe,die,lamp,Das ist die Lampe.
+Home & Objects,der Schrank,der,wardrobe,Das ist der Schrank.
+Home & Objects,die Dusche,die,shower,Das ist die Dusche.
+Home & Objects,die Badewanne,die,bathtub,Das ist die Badewanne.
+Home & Objects,der Spiegel,der,mirror,Das ist der Spiegel.
+Home & Objects,der Teppich,der,carpet,Das ist der Teppich.
+Home & Objects,der Fernseher,der,television,Das ist der Fernseher.
+Home & Objects,die Waschmaschine,die,washing machine,Das ist die Waschmaschine.
+Home & Objects,der Kühlschrank,der,fridge,Das ist der Kühlschrank.
+Home & Objects,der Herd,der,stove,Das ist der Herd.
+Home & Objects,die Heizung,die,heater,Das ist die Heizung.
+Home & Objects,die Treppe,die,stairs,Das ist die Treppe.
+Home & Objects,der Aufzug,der,elevator,Das ist der Aufzug.
+Home & Objects,die Miete,die,rent,Das ist die Miete.
+Home & Objects,der Schlüssel,der,key,Das ist der Schlüssel.
+Home & Objects,umziehen,,to move (house),Ich mag umziehen.
+Home & Objects,der Vermieter,der,landlord,Das ist der Vermieter.
+Home & Objects,die Nachbarn,die,neighbours,Das ist die Nachbarn.
+Home & Objects,die Adresse,die,address,Das ist die Adresse.
+Home & Objects,die Postleitzahl,die,postal code,Das ist die Postleitzahl.
+Home & Objects,das Dorf,das,village,Das ist das Dorf.
+Home & Objects,die Stadt,die,city,Das ist die Stadt.
+Home & Objects,zentral,,central,Ich mag zentral.
+Home & Objects,ruhig,,quiet,Ich mag ruhig.
+Home & Objects,laut,,loud,Ich mag laut.
+Home & Objects,weit,,far,Ich mag weit.
+Numbers & Time,,,zero,Es ist nan Uhr.
+Numbers & Time,eins,,one,Ich habe eins Bücher.
+Numbers & Time,zwei,,two,Ich habe zwei Bücher.
+Numbers & Time,drei,,three,Ich habe drei Bücher.
+Numbers & Time,vier,,four,Ich habe vier Bücher.
+Numbers & Time,fünf,,five,Ich habe fünf Bücher.
+Numbers & Time,sechs,,six,Ich habe sechs Bücher.
+Numbers & Time,sieben,,seven,Ich habe sieben Bücher.
+Numbers & Time,acht,,eight,Ich habe acht Bücher.
+Numbers & Time,neun,,nine,Ich habe neun Bücher.
+Numbers & Time,zehn,,ten,Das kostet zehn Euro.
+Numbers & Time,elf,,eleven,Das kostet elf Euro.
+Numbers & Time,zwölf,,twelve,Das kostet zwölf Euro.
+Numbers & Time,dreizehn,,thirteen,Das kostet dreizehn Euro.
+Numbers & Time,vierzehn,,fourteen,Das kostet vierzehn Euro.
+Numbers & Time,fünfzehn,,fifteen,Das kostet fünfzehn Euro.
+Numbers & Time,sechzehn,,sixteen,Das kostet sechzehn Euro.
+Numbers & Time,siebzehn,,seventeen,Das kostet siebzehn Euro.
+Numbers & Time,achtzehn,,eighteen,Das kostet achtzehn Euro.
+Numbers & Time,neunzehn,,nineteen,Das kostet neunzehn Euro.
+Numbers & Time,zwanzig,,twenty,Das kostet zwanzig Euro.
+Numbers & Time,dreißig,,thirty,Das kostet dreißig Euro.
+Numbers & Time,vierzig,,forty,Das kostet vierzig Euro.
+Numbers & Time,fünfzig,,fifty,Das kostet fünfzig Euro.
+Numbers & Time,sechzig,,sixty,Das kostet sechzig Euro.
+Numbers & Time,siebzig,,seventy,Das kostet siebzig Euro.
+Numbers & Time,achtzig,,eighty,Das kostet achtzig Euro.
+Numbers & Time,neunzig,,ninety,Das kostet neunzig Euro.
+Numbers & Time,hundert,,hundred,Das kostet hundert Euro.
+Numbers & Time,tausend,,thousand,Das kostet tausend Euro.
+Numbers & Time,die Uhr,die,o'clock / clock,Es ist die Uhr Uhr.
+Numbers & Time,die Stunde,die,hour,Es ist die Stunde Uhr.
+Numbers & Time,die Minute,die,minute,Es ist die Minute Uhr.
+Numbers & Time,die Sekunde,die,second,Es ist die Sekunde Uhr.
+Numbers & Time,heute,,today,Es ist heute Uhr.
+Numbers & Time,gestern,,yesterday,Es ist gestern Uhr.
+Numbers & Time,morgen,,tomorrow,Es ist morgen Uhr.
+Numbers & Time,jetzt,,now,Es ist jetzt Uhr.
+Numbers & Time,früh,,early,Es ist früh Uhr.
+Numbers & Time,spät,,late,Es ist spät Uhr.
+Numbers & Time,pünktlich,,on time,Es ist pünktlich Uhr.
+Numbers & Time,Montag,,Monday,Es ist Montag Uhr.
+Numbers & Time,Dienstag,,Tuesday,Es ist Dienstag Uhr.
+Numbers & Time,Mittwoch,,Wednesday,Es ist Mittwoch Uhr.
+Numbers & Time,Donnerstag,,Thursday,Es ist Donnerstag Uhr.
+Numbers & Time,Freitag,,Friday,Es ist Freitag Uhr.
+Numbers & Time,Samstag,,Saturday,Es ist Samstag Uhr.
+Numbers & Time,Sonntag,,Sunday,Es ist Sonntag Uhr.
+Numbers & Time,der Morgen,der,morning,Es ist der Morgen Uhr.
+Numbers & Time,der Vormittag,der,morning (late),Es ist der Vormittag Uhr.
+Numbers & Time,der Mittag,der,noon,Es ist der Mittag Uhr.
+Numbers & Time,der Nachmittag,der,afternoon,Es ist der Nachmittag Uhr.
+Numbers & Time,der Abend,der,evening,Es ist der Abend Uhr.
+Numbers & Time,die Nacht,die,night,Es ist die Nacht Uhr.
+Numbers & Time,Januar,,January,Es ist Januar Uhr.
+Numbers & Time,Februar,,February,Es ist Februar Uhr.
+Numbers & Time,März,,March,Es ist März Uhr.
+Numbers & Time,April,,April,Es ist April Uhr.
+Numbers & Time,Mai,,May,Es ist Mai Uhr.
+Numbers & Time,Juni,,June,Es ist Juni Uhr.
+Numbers & Time,Juli,,July,Es ist Juli Uhr.
+Numbers & Time,August,,August,Es ist August Uhr.
+Numbers & Time,September,,September,Es ist September Uhr.
+Numbers & Time,Oktober,,October,Es ist Oktober Uhr.
+Numbers & Time,November,,November,Es ist November Uhr.
+Numbers & Time,Dezember,,December,Es ist Dezember Uhr.
+Days & Weather,das Wetter,das,weather,Heute ist das Wetter.
+Days & Weather,die Sonne,die,sun,Heute ist die Sonne.
+Days & Weather,der Regen,der,rain,Heute ist der Regen.
+Days & Weather,der Wind,der,wind,Heute ist der Wind.
+Days & Weather,der Schnee,der,snow,Heute ist der Schnee.
+Days & Weather,die Wolke,die,cloud,Heute ist die Wolke.
+Days & Weather,heiß,,hot,Heute ist heiß.
+Days & Weather,kalt,,cold,Heute ist kalt.
+Days & Weather,warm,,warm,Heute ist warm.
+Days & Weather,kühl,,cool,Heute ist kühl.
+Days & Weather,trocken,,dry,Heute ist trocken.
+Days & Weather,nass,,wet,Heute ist nass.
+Days & Weather,der Frühling,der,spring,Heute ist der Frühling.
+Days & Weather,der Sommer,der,summer,Heute ist der Sommer.
+Days & Weather,der Herbst,der,autumn,Heute ist der Herbst.
+Days & Weather,der Winter,der,winter,Heute ist der Winter.
+Days & Weather,grad,,degree,Heute ist grad.
+Days & Weather,das Gewitter,das,thunderstorm,Heute ist das Gewitter.
+Days & Weather,das Eis,das,ice,Heute ist das Eis.
+Days & Weather,die Temperatur,die,temperature,Heute ist die Temperatur.
+Days & Weather,das Klima,das,climate,Heute ist das Klima.
+Travel & Transport,das Auto,das,car,Ich nehme das Auto.
+Travel & Transport,der Zug,der,train,Ich nehme der Zug.
+Travel & Transport,der Bus,der,bus,Ich nehme der Bus.
+Travel & Transport,die Straßenbahn,die,tram,Ich nehme die Straßenbahn.
+Travel & Transport,das Fahrrad,das,bicycle,Ich nehme das Fahrrad.
+Travel & Transport,das Flugzeug,das,airplane,Ich nehme das Flugzeug.
+Travel & Transport,der Flughafen,der,airport,Ich nehme der Flughafen.
+Travel & Transport,der Bahnhof,der,train station,Ich nehme der Bahnhof.
+Travel & Transport,die Haltestelle,die,stop (bus/tram),Ich nehme die Haltestelle.
+Travel & Transport,die Fahrkarte,die,ticket,Ich nehme die Fahrkarte.
+Travel & Transport,das Ticket,das,ticket,Ich nehme das Ticket.
+Travel & Transport,der Fahrplan,der,timetable,Ich nehme der Fahrplan.
+Travel & Transport,abfahren,,to depart,Wir müssen abfahren.
+Travel & Transport,ankommen,,to arrive,Wir müssen ankommen.
+Travel & Transport,einsteigen,,to get in,Wir müssen einsteigen.
+Travel & Transport,aussteigen,,to get out,Wir müssen aussteigen.
+Travel & Transport,umsteigen,,to change (trains),Wir müssen umsteigen.
+Travel & Transport,fahren,,to drive/ride,Wir müssen fahren.
+Travel & Transport,fliegen,,to fly,Wir müssen fliegen.
+Travel & Transport,laufen,,to walk/run,Wir müssen laufen.
+Travel & Transport,die Richtung,die,direction,Ich nehme die Richtung.
+Travel & Transport,rechts,,right,Wir müssen rechts.
+Travel & Transport,links,,left,Wir müssen links.
+Travel & Transport,geradeaus,,straight ahead,Wir müssen geradeaus.
+Travel & Transport,zurück,,back,Wir müssen zurück.
+Travel & Transport,der Weg,der,way,Ich nehme der Weg.
+Travel & Transport,die Straße,die,street,Ich nehme die Straße.
+Travel & Transport,die Kreuzung,die,crossroad,Ich nehme die Kreuzung.
+Travel & Transport,die Ampel,die,traffic light,Ich nehme die Ampel.
+Travel & Transport,die Brücke,die,bridge,Ich nehme die Brücke.
+Travel & Transport,der Verkehr,der,traffic,Ich nehme der Verkehr.
+Travel & Transport,die Reise,die,trip,Ich nehme die Reise.
+Travel & Transport,das Gepäck,das,luggage,Ich nehme das Gepäck.
+Travel & Transport,der Koffer,der,suitcase,Ich nehme der Koffer.
+Travel & Transport,die Tasche,die,bag,Ich nehme die Tasche.
+Travel & Transport,der Pass,der,passport,Ich nehme der Pass.
+Travel & Transport,die Verspätung,die,delay,Ich nehme die Verspätung.
+Verbs (basic),sein,,to be,Ich möchte sein.
+Verbs (basic),haben,,to have,Ich möchte haben.
+Verbs (basic),werden,,to become,Ich möchte werden.
+Verbs (basic),machen,,to make/do,Ich möchte machen.
+Verbs (basic),gehen,,to go,Ich möchte gehen.
+Verbs (basic),kommen,,to come,Ich möchte kommen.
+Verbs (basic),sehen,,to see,Ich möchte sehen.
+Verbs (basic),geben,,to give,Ich möchte geben.
+Verbs (basic),nehmen,,to take,Ich möchte nehmen.
+Verbs (basic),finden,,to find,Ich möchte finden.
+Verbs (basic),denken,,to think,Ich möchte denken.
+Verbs (basic),wissen,,to know,Ich möchte wissen.
+Verbs (basic),sagen,,to say,Ich möchte sagen.
+Verbs (basic),sprechen,,to speak,Ich möchte sprechen.
+Verbs (basic),fragen,,to ask,Ich möchte fragen.
+Verbs (basic),antworten,,to answer,Ich möchte antworten.
+Verbs (basic),arbeiten,,to work,Ich möchte arbeiten.
+Verbs (basic),lernen,,to learn,Ich möchte lernen.
+Verbs (basic),verstehen,,to understand,Ich möchte verstehen.
+Verbs (basic),brauchen,,to need,Ich möchte brauchen.
+Verbs (basic),mögen,,to like,Ich möchte mögen.
+Verbs (basic),lieben,,to love,Ich möchte lieben.
+Verbs (basic),spielen,,to play,Ich möchte spielen.
+Verbs (basic),essen,,to eat,Ich möchte essen.
+Verbs (basic),trinken,,to drink,Ich möchte trinken.
+Verbs (basic),helfen,,to help,Ich möchte helfen.
+Verbs (basic),bleiben,,to stay,Ich möchte bleiben.
+Verbs (basic),stehen,,to stand,Ich möchte stehen.
+Verbs (basic),sitzen,,to sit,Ich möchte sitzen.
+Verbs (basic),liegen,,to lie,Ich möchte liegen.
+Verbs (basic),schreiben,,to write,Ich möchte schreiben.
+Verbs (basic),lesen,,to read,Ich möchte lesen.
+Verbs (basic),fahren,,to drive/ride,Ich möchte fahren.
+Verbs (basic),laufen,,to run,Ich möchte laufen.
+Verbs (basic),schlafen,,to sleep,Ich möchte schlafen.
+Verbs (basic),öffnen,,to open,Ich möchte öffnen.
+Verbs (basic),schließen,,to close,Ich möchte schließen.
+Verbs (basic),beginnen,,to begin,Ich möchte beginnen.
+Verbs (basic),enden,,to end,Ich möchte enden.
+Verbs (basic),kaufen,,to buy,Ich möchte kaufen.
+Verbs (basic),verkaufen,,to sell,Ich möchte verkaufen.
+Verbs (basic),bezahlen,,to pay,Ich möchte bezahlen.
+Verbs (basic),kosten,,to cost,Ich möchte kosten.
+Verbs (basic),zeigen,,to show,Ich möchte zeigen.
+Verbs (basic),arbeiten,,to work,Ich möchte arbeiten.
+Verbs (basic),wohnen,,to live/reside,Ich möchte wohnen.
+Verbs (basic),glauben,,to believe,Ich möchte glauben.
+Verbs (basic),brauchen,,to need,Ich möchte brauchen.
+Verbs (basic),hoffen,,to hope,Ich möchte hoffen.
+Verbs (basic),danken,,to thank,Ich möchte danken.
+Verbs (basic),reisen,,to travel,Ich möchte reisen.
+Verbs (basic),schwimmen,,to swim,Ich möchte schwimmen.
+Verbs (basic),tanzen,,to dance,Ich möchte tanzen.
+Verbs (basic),beginnen,,to start,Ich möchte beginnen.
+Adjectives (common),gut,,good,Das ist gut.
+Adjectives (common),schlecht,,bad,Das ist schlecht.
+Adjectives (common),klein,,small,Das ist klein.
+Adjectives (common),groß,,big,Das ist groß.
+Adjectives (common),neu,,new,Das ist neu.
+Adjectives (common),alt,,old,Das ist alt.
+Adjectives (common),jung,,young,Das ist jung.
+Adjectives (common),schön,,beautiful,Das ist schön.
+Adjectives (common),hässlich,,ugly,Das ist hässlich.
+Adjectives (common),billig,,cheap,Das ist billig.
+Adjectives (common),teuer,,expensive,Das ist teuer.
+Adjectives (common),langsam,,slow,Das ist langsam.
+Adjectives (common),schnell,,fast,Das ist schnell.
+Adjectives (common),hell,,bright,Das ist hell.
+Adjectives (common),dunkel,,dark,Das ist dunkel.
+Adjectives (common),warm,,warm,Das ist warm.
+Adjectives (common),kalt,,cold,Das ist kalt.
+Adjectives (common),freundlich,,friendly,Das ist freundlich.
+Adjectives (common),fremd,,strange/foreign,Das ist fremd.
+Adjectives (common),leicht,,easy/light,Das ist leicht.
+Adjectives (common),schwer,,difficult/heavy,Das ist schwer.
+Adjectives (common),wichtig,,important,Das ist wichtig.
+Adjectives (common),müde,,tired,Das ist müde.
+Adjectives (common),hungrig,,hungry,Das ist hungrig.
+Adjectives (common),durstig,,thirsty,Das ist durstig.
+Adjectives (common),frei,,free,Das ist frei.
+Adjectives (common),besetzt,,occupied,Das ist besetzt.
+Adjectives (common),richtig,,correct,Das ist richtig.
+Adjectives (common),falsch,,wrong,Das ist falsch.
+Adjectives (common),glücklich,,happy,Das ist glücklich.
+Adjectives (common),traurig,,sad,Das ist traurig.
+Adjectives (common),ruhig,,quiet,Das ist ruhig.
+Adjectives (common),laut,,loud,Das ist laut.
+Adjectives (common),sauber,,clean,Das ist sauber.
+Adjectives (common),schmutzig,,dirty,Das ist schmutzig.
+Adjectives (common),gesund,,healthy,Das ist gesund.
+Adjectives (common),krank,,ill,Das ist krank.
+Adjectives (common),geöffnet,,open,Das ist geöffnet.
+Adjectives (common),geschlossen,,closed,Das ist geschlossen.
+Adjectives (common),spät,,late,Das ist spät.
+Adjectives (common),pünktlich,,punctual,Das ist pünktlich.
+Pronouns & Prepositions,ich,,I,Ich lerne Deutsch.
+Pronouns & Prepositions,du,,you (singular informal),Du sprichst Englisch.
+Pronouns & Prepositions,er,,he,Er arbeitet hier.
+Pronouns & Prepositions,sie,,she,Sie kommt aus Berlin.
+Pronouns & Prepositions,es,,it,Es ist kalt.
+Pronouns & Prepositions,wir,,we,Wir gehen ins Kino.
+Pronouns & Prepositions,ihr,,you (plural informal),Ihr seid müde.
+Pronouns & Prepositions,Sie,,you (formal),Sie haben einen Termin.
+Pronouns & Prepositions,mich,,me,Mich ist wichtig.
+Pronouns & Prepositions,dich,,you (accusative),Dich ist wichtig.
+Pronouns & Prepositions,mein,,my,Mein ist wichtig.
+Pronouns & Prepositions,dein,,your (informal),Dein ist wichtig.
+Pronouns & Prepositions,sein,,his/its,Sein ist wichtig.
+Pronouns & Prepositions,ihr,,her/their,Ihr seid müde.
+Pronouns & Prepositions,unser,,our,Unser ist wichtig.
+Pronouns & Prepositions,dies,,this,Dies ist wichtig.
+Pronouns & Prepositions,das,das,that/this,Das ist wichtig.
+Pronouns & Prepositions,ein,,a/an,Ein ist wichtig.
+Pronouns & Prepositions,kein,,no/none,Kein ist wichtig.
+Pronouns & Prepositions,alle,,all,Alle ist wichtig.
+Pronouns & Prepositions,jeder,,every,Jeder ist wichtig.
+Pronouns & Prepositions,man,,one/people,Man ist wichtig.
+Pronouns & Prepositions,wer,,who,Wer ist wichtig.
+Pronouns & Prepositions,was,,what,Was ist wichtig.
+Pronouns & Prepositions,wo,,where,Wo ist wichtig.
+Pronouns & Prepositions,woher,,from where,Woher ist wichtig.
+Pronouns & Prepositions,wohin,,to where,Wohin ist wichtig.
+Pronouns & Prepositions,warum,,why,Warum ist wichtig.
+Pronouns & Prepositions,wie,,how,Wie ist wichtig.
+Pronouns & Prepositions,wann,,when,Wann ist wichtig.
+Pronouns & Prepositions,auf,,on,Auf ist wichtig.
+Pronouns & Prepositions,unter,,under,Unter ist wichtig.
+Pronouns & Prepositions,neben,,next to,Neben ist wichtig.
+Pronouns & Prepositions,vor,,in front of,Vor ist wichtig.
+Pronouns & Prepositions,hinter,,behind,Hinter ist wichtig.
+Pronouns & Prepositions,zwischen,,between,Zwischen ist wichtig.
+Pronouns & Prepositions,in,,in/into,In ist wichtig.
+Pronouns & Prepositions,an,,at/on (vertical),An ist wichtig.
+Pronouns & Prepositions,über,,over/about,Über ist wichtig.
+Pronouns & Prepositions,aus,,out of/from,Aus ist wichtig.
+Pronouns & Prepositions,mit,,with,Mit ist wichtig.
+Pronouns & Prepositions,ohne,,without,Ohne ist wichtig.
+Pronouns & Prepositions,für,,for,Für ist wichtig.
+Pronouns & Prepositions,gegen,,against,Gegen ist wichtig.
+Pronouns & Prepositions,um,,around/at (time),Um ist wichtig.
+Pronouns & Prepositions,bis,,until,Bis ist wichtig.
+Pronouns & Prepositions,nach,,after/to,Nach ist wichtig.
+Pronouns & Prepositions,seit,,since,Seit ist wichtig.
+Pronouns & Prepositions,von,,from/of,Von ist wichtig.
+Connectors,und,,and,"Ich esse Brot, und trinke ich Milch."
+Connectors,oder,,or,"Ich esse Brot, oder trinke ich Milch."
+Connectors,aber,,but,"Ich esse Brot, aber trinke ich Milch."
+Connectors,denn,,because,"Ich esse Brot, denn trinke ich Milch."
+Connectors,weil,,because,"Ich esse Brot, weil trinke ich Milch."
+Connectors,dass,,that,"Ich esse Brot, dass trinke ich Milch."
+Connectors,wenn,,if/when,"Ich esse Brot, wenn trinke ich Milch."
+Connectors,als,,when (past),"Ich esse Brot, als trinke ich Milch."
+Connectors,ob,,whether,"Ich esse Brot, ob trinke ich Milch."
+Connectors,trotzdem,,nevertheless,"Ich esse Brot, trotzdem trinke ich Milch."
+Connectors,deshalb,,therefore,"Ich esse Brot, deshalb trinke ich Milch."
+Connectors,also,,so/therefore,"Ich esse Brot, also trinke ich Milch."
+Connectors,dann,,then,"Ich esse Brot, dann trinke ich Milch."
+Connectors,doch,,yet/however,"Ich esse Brot, doch trinke ich Milch."
+Connectors,sondern,,but rather,"Ich esse Brot, sondern trinke ich Milch."
+Verbs (basic),hören,,to hear,Ich kann Musik hören.
+Verbs (basic),schauen,,to look/watch,Wir schauen einen Film.
+Verbs (basic),träumen,,to dream,Ich träume von Urlaub.
+Verbs (basic),frühstücken,,to have breakfast,Wir frühstücken um acht Uhr.
+Verbs (basic),warten,,to wait,Sie wartet auf den Bus.
+Verbs (basic),fühlen,,to feel,Ich fühle mich gut.
+Verbs (basic),schicken,,to send,Er schickt eine E‑Mail.
+Verbs (basic),bekommen,,to get/receive,Ich bekomme einen Brief.
+Verbs (basic),erzählen,,to tell,Er erzählt eine Geschichte.
+Verbs (basic),erklären,,to explain,Die Lehrerin erklärt die Übung.
+Verbs (basic),tragen,,to wear/carry,Ich trage einen Rucksack.
+Verbs (basic),schneiden,,to cut,Sie schneidet das Brot.
+Verbs (basic),sparen,,to save (money),Ich spare für ein Auto.
+Verbs (basic),zahlen,,to pay,Wir zahlen die Rechnung.
+Verbs (basic),putzen,,to clean,Ich putze das Bad.
+Verbs (basic),vorbereiten,,to prepare,Wir bereiten das Essen vor.
+Verbs (basic),probieren,,to try,Möchtest du den Kuchen probieren?
+Verbs (basic),legen,,to lay/put,Ich lege das Buch auf den Tisch.
+Verbs (basic),stellen,,to place/put (upright),Er stellt die Flasche auf den Tisch.
+Verbs (basic),waschen,,to wash,Ich wasche meine Hände.
+Verbs (basic),leben,,to live (be alive),Ich lebe in Deutschland.
+Verbs (basic),heißen,,to be called,Ich heiße Anna.
+Verbs (basic),dürfen,,may/to be allowed,Darf ich hier parken?
+Verbs (basic),können,,can,Ich kann Deutsch sprechen.
+Verbs (basic),müssen,,must/have to,Ich muss lernen.
+Verbs (basic),sollen,,should,Du sollst mehr schlafen.
+Verbs (basic),wollen,,to want,Ich will einen Kaffee.

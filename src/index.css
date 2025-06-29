@@ -17,11 +17,21 @@ body {
   background: #000000;
   color: #ffffff;
   font-size: 16px; /* Prevents zoom on iOS */
+  line-height: 1.5;
 }
 
 /* Custom font classes */
 .font-display {
   font-family: 'Playfair Display', serif;
+}
+
+/* iOS Safe Area Support */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
 }
 
 /* Focus styles */
@@ -75,16 +85,6 @@ select:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Hover effects */
-.hover-lift {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.hover-lift:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.08);
-}
-
 /* Button styles */
 .btn-primary {
   background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
@@ -92,6 +92,7 @@ select:focus-visible {
   border: none;
   font-weight: 600;
   transition: all 0.2s ease;
+  min-height: 44px; /* iOS touch target */
 }
 
 .btn-primary:hover {
@@ -106,6 +107,7 @@ select:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.3);
   font-weight: 500;
   transition: all 0.2s ease;
+  min-height: 44px; /* iOS touch target */
 }
 
 .btn-secondary:hover {
@@ -124,14 +126,8 @@ select:focus-visible {
   animation: cardFlip 0.6s ease-in-out;
 }
 
-/* Mobile optimizations */
+/* Mobile-first optimizations */
 @media (max-width: 640px) {
-  /* Ensure proper touch targets */
-  button {
-    min-height: 44px;
-    min-width: 44px;
-  }
-  
   /* Prevent horizontal scroll */
   body {
     overflow-x: hidden;
@@ -146,13 +142,62 @@ select:focus-visible {
   .space-y-4 > * + * {
     margin-top: 1rem;
   }
+  
+  /* Ensure proper touch targets */
+  button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Optimize select elements for mobile */
+  select {
+    font-size: 16px; /* Prevents zoom on iOS */
+    min-height: 44px;
+  }
+  
+  /* Better text wrapping */
+  .break-words {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
 }
 
-/* Tablet optimizations */
-@media (min-width: 641px) and (max-width: 1024px) {
-  /* Tablet-specific adjustments */
-  .hover-lift:hover {
-    transform: translateY(-2px);
+/* iPhone specific optimizations */
+@media (max-width: 414px) {
+  /* iPhone Pro Max and smaller */
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Reduce font sizes slightly for better fit */
+  .text-3xl {
+    font-size: 1.75rem; /* 28px instead of 30px */
+    line-height: 1.2;
+  }
+  
+  /* Optimize card content spacing */
+  .min-h-\[200px\] {
+    min-height: 180px;
+  }
+}
+
+/* iPhone SE and smaller screens */
+@media (max-width: 375px) {
+  .text-3xl {
+    font-size: 1.5rem; /* 24px */
+    line-height: 1.2;
+  }
+  
+  .min-h-\[200px\] {
+    min-height: 160px;
+  }
+  
+  /* Reduce padding for very small screens */
+  .px-4 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 }
 
@@ -166,6 +211,15 @@ select:focus-visible {
   
   .space-y-4 > * + * {
     margin-top: 0.75rem;
+  }
+  
+  .min-h-\[200px\] {
+    min-height: 120px;
+  }
+  
+  .py-8 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -199,25 +253,47 @@ select:focus-visible {
   }
 }
 
-/* Noise texture overlay */
-.noise-overlay::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  pointer-events: none;
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    transform: none;
+    box-shadow: none;
+    background: initial;
+  }
+  
+  /* Enhanced touch feedback */
+  .btn-primary:active {
+    transform: scale(0.98);
+    background: linear-gradient(135deg, #e0e0e0 0%, #d0d0d0 100%);
+  }
+  
+  .btn-secondary:active {
+    transform: scale(0.98);
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Remove webkit tap highlight */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus management for better UX */
+button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 /* Print styles */
 @media print {
-  .noise-overlay::before {
-    display: none;
-  }
-  
   .glass,
   .glass-dark {
     background: white !important;
@@ -230,13 +306,6 @@ select:focus-visible {
   }
 }
 
-/* Focus management for better UX */
-button:focus-visible {
-  outline: 2px solid #ffffff;
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
 /* Improve text readability */
 .break-words {
   word-wrap: break-word;
@@ -244,30 +313,28 @@ button:focus-visible {
   hyphens: auto;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* Better button interactions */
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-/* Better button interactions on touch devices */
-@media (hover: none) and (pointer: coarse) {
-  .hover-lift:hover {
-    transform: none;
-    box-shadow: none;
+/* iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+  /* iOS Safari specific styles */
+  body {
+    -webkit-text-size-adjust: 100%;
   }
   
-  .btn-primary:hover,
-  .btn-secondary:hover {
-    transform: none;
+  input, select, textarea {
+    font-size: 16px; /* Prevents zoom */
   }
   
-  /* Enhanced touch feedback */
-  .btn-primary:active {
-    transform: scale(0.98);
-  }
-  
-  .btn-secondary:active {
-    transform: scale(0.98);
-    background: rgba(255, 255, 255, 0.15);
+  /* Fix iOS safe area */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
   }
 }

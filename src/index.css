@@ -16,6 +16,7 @@ body {
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
   background: #000000;
   color: #ffffff;
+  font-size: 16px; /* Prevents zoom on iOS */
 }
 
 /* Custom font classes */
@@ -39,7 +40,7 @@ select:focus-visible {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -48,7 +49,7 @@ select:focus-visible {
 
 ::-webkit-scrollbar-thumb {
   background: #404040;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -80,8 +81,8 @@ select:focus-visible {
 }
 
 .hover-lift:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.08);
 }
 
 /* Button styles */
@@ -96,7 +97,7 @@ select:focus-visible {
 .btn-primary:hover {
   background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
   transform: translateY(-1px);
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
 }
 
 .btn-secondary {
@@ -123,15 +124,48 @@ select:focus-visible {
   animation: cardFlip 0.6s ease-in-out;
 }
 
-/* Responsive */
+/* Mobile optimizations */
 @media (max-width: 640px) {
-  body {
-    font-size: 16px;
-  }
-  
+  /* Ensure proper touch targets */
   button {
     min-height: 44px;
     min-width: 44px;
+  }
+  
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Optimize text sizes for mobile */
+  .font-display {
+    line-height: 1.1;
+  }
+  
+  /* Better spacing on mobile */
+  .space-y-4 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Tablet-specific adjustments */
+  .hover-lift:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Landscape mobile optimization */
+@media (max-width: 767px) and (orientation: landscape) {
+  /* Reduce vertical spacing in landscape */
+  main {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  
+  .space-y-4 > * + * {
+    margin-top: 0.75rem;
   }
 }
 
@@ -141,6 +175,10 @@ select:focus-visible {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+  
+  .card-flip {
+    animation: none;
   }
 }
 
@@ -155,6 +193,10 @@ select:focus-visible {
     background: rgba(0, 0, 0, 0.9);
     border-color: #ffffff;
   }
+  
+  .btn-secondary {
+    border-width: 2px;
+  }
 }
 
 /* Noise texture overlay */
@@ -168,4 +210,64 @@ select:focus-visible {
   opacity: 0.03;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
   pointer-events: none;
+}
+
+/* Print styles */
+@media print {
+  .noise-overlay::before {
+    display: none;
+  }
+  
+  .glass,
+  .glass-dark {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+  }
+  
+  button {
+    display: none !important;
+  }
+}
+
+/* Focus management for better UX */
+button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Improve text readability */
+.break-words {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better button interactions on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .hover-lift:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    transform: none;
+  }
+  
+  /* Enhanced touch feedback */
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-secondary:active {
+    transform: scale(0.98);
+    background: rgba(255, 255, 255, 0.15);
+  }
 }

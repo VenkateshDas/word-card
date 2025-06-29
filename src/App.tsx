@@ -61,7 +61,8 @@ export default function FlashcardApp() {
 
   const getFrontText = () => {
     if (languageDirection === "DE→EN") {
-      return currentCard.article ? `${currentCard.article} ${currentCard.german}` : currentCard.german;
+      // Just return the German word as-is since it already includes the article
+      return currentCard.german;
     } else {
       return currentCard.english;
     }
@@ -71,7 +72,8 @@ export default function FlashcardApp() {
     if (languageDirection === "DE→EN") {
       return currentCard.english;
     } else {
-      return currentCard.article ? `${currentCard.article} ${currentCard.german}` : currentCard.german;
+      // Just return the German word as-is since it already includes the article
+      return currentCard.german;
     }
   };
 

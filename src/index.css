@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,16 +10,23 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Custom font classes */
+.font-display {
+  font-family: 'Playfair Display', serif;
 }
 
 /* Focus styles */
 button:focus-visible,
 select:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #ffffff;
   outline-offset: 2px;
 }
 
@@ -27,7 +34,7 @@ select:focus-visible {
 * {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 200ms;
 }
 
 /* Custom scrollbar */
@@ -36,28 +43,90 @@ select:focus-visible {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #1a1a1a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #404040;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #606060;
 }
 
 /* Selection */
 ::selection {
-  background: #dbeafe;
-  color: #1e40af;
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  color: #000000;
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Card animations */
+@keyframes cardFlip {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+.card-flip {
+  animation: cardFlip 0.6s ease-in-out;
 }
 
 /* Responsive */
 @media (max-width: 640px) {
   body {
-    font-size: 16px; /* Prevent zoom on iOS */
+    font-size: 16px;
   }
   
   button {
@@ -75,12 +144,28 @@ select:focus-visible {
   }
 }
 
+/* High contrast mode */
 @media (prefers-contrast: high) {
-  .bg-gray-50 {
-    background-color: #ffffff;
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #ffffff;
   }
   
-  .border-gray-200 {
-    border-color: #000000;
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.9);
+    border-color: #ffffff;
   }
+}
+
+/* Noise texture overlay */
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  pointer-events: none;
 }
